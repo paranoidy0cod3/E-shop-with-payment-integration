@@ -1,0 +1,151 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;   
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  /* padding-inline: 2rem; */
+}
+
+.cart-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  
+}
+
+.proceed-checkout {
+  padding: 1em;
+  box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 50%);
+  border-radius: 20px;
+  max-height: 25rem;
+  margin-inline:auto;
+}
+
+.card-proceed {
+  min-width: 30rem;
+  padding: 1rem;
+
+}
+.proceed-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+label {
+  display: block;
+  font-size: larger;
+  padding-bottom: .5rem;
+}
+.input-group {
+  display: flex;
+  border: 1px solid seashell;
+  border-radius: 15px;
+  padding: 1rem .5rem;
+}
+
+#promo {
+  flex: 1 1 60%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.promo-btn {
+  padding: .6rem 2rem;
+}
+
+hr {
+  margin: 2rem 0rem;
+  width: 95%;
+  margin-inline: auto;
+  border-color: rgba(128, 128, 128, 0.34);
+}
+.table-proceed {
+  width: 100%;
+  padding: 1rem 0rem;
+  
+}
+
+.table-proceed td {
+  width: 85%;
+  
+}
+
+.table-proceed tr:last-child {
+  padding-block: 1rem;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.proceed-btn {
+  padding: 1rem 2rem;
+  text-align: center;
+  width: 85%;
+  margin-inline: auto;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #535bf2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+  font-weight: 600;
+  flex-wrap: wrap;
+  inset: 20 0 0 0;
+  margin-inline: auto;
+}
+
+.bank-promo {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  padding-right: 2rem;
+
+}
+.bank-promo img {
+  aspect-ratio: 1/1;
+  object-fit: scale-down;
+}
+
+@media (max-width: 919px) {
+  
+  .footer-note {
+    order: 2;
+    margin-inline:auto;
+  }
+  .bank-promo {
+    margin-inline:auto;
+    order: 1;
+  }
+  
+}
