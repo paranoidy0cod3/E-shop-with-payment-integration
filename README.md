@@ -1,8 +1,10 @@
-# React + Vite
+# Simple Payment Gateway Integration React with ABA Payway Cambodia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+basic web application demonstrating the integration of PayWay Cambodia's payment gateway using React.
 
-Currently, two official plugins are available:
+## Technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Frontend: ReactJS
+- Payment Gateway: PayWay Cambodia
+
+This project aims to provide a foundational understanding of integrating a payment gateway into a web application using React.js. It can be expanded upon to include features like order confirmation, payment history, and advanced security measures.
